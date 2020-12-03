@@ -1,13 +1,38 @@
 body {
     background-color: #fff3e6;
 }
-
 h1 {
+    font-family: 'Oswald', sans-serif;
     color: #361c00;
     font-size: 36px;
 }
-
 h3 {
+    font-family: 'Oswald', sans-serif;
     color: #361c00;
     font-size: 26px;
+}
+nav {
+    background-color: #ffc913;
+}
+#navContainer {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo img{
+    width: 100px;
+    margin-top: 5px;
+}
+#navMenu {
+    display: flex;
+    list-style: none;
+    width: 45%;
+}
+.navMenuItem{
+    font-family: 'Kranky', cursive;
+    margin: 0 30px;
+    padding: 20px 0;
+    font-size: 20px;
 }
