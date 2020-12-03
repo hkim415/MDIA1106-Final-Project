@@ -11,8 +11,24 @@ h3 {
     color: #361c00;
     font-size: 26px;
 }
+header {
+    position: sticky;
+    top: 0;
+}
 nav {
     background-color: #ffc913;
+}
+a {
+    color: #84521d;
+    text-decoration: none;
+}
+a:visited {
+    color: #361c00;
+    text-decoration: none;
+}
+.currentLink {
+    font-weight: bold;
+    text-decoration: underline;
 }
 #navContainer {
     display: flex;
@@ -29,6 +45,7 @@ nav {
     display: flex;
     list-style: none;
     width: 45%;
+    text-transform: uppercase;
 }
 .navMenuItem{
     font-family: 'Kranky', cursive;
