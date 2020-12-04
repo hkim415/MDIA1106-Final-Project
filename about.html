@@ -4,43 +4,42 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cafe Smile</title>
-        <link rel="stylesheet" href=".//css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kranky&family=Oswald&family=Quattrocento+Sans&display=swap" rel="stylesheet">        
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body class="class-for-index">
-        <script src=".//js/aboutus.js"></script>
         <header>
             <nav>
-            <div id='navContainer'>
-                <div id='logo'>
-                    <img src="./images/logoMain.gif" alt="cafe smile logo">
+                <div id='navContainer'>
+                    <div id='logo'>
+                        <a href="./index.html">
+                            <img src="./images/logoMain.gif" alt="cafe smile logo">
+                        </a>
+                    </div>
+                    <ul id='navMenu'>
+                            <li class='navMenuItem'><a id='about' href="./about.html">about</a></li>
+                            <li class='navMenuItem'><a id='menu' href="./menu.html">menu</a></li>
+                            <li class='navMenuItem'><a id='location' href="./location.html">location</a></li>
+                            <li class='navMenuItem'><a id='contact' href="./contact.html">contact</a></li>
+                    </ul>
                 </div>
-                <ul id='navMenu'>
-                    <li class='navMenuItem'>About</li>
-                    <li class='navMenuItem'>Menu</li>
-                    <li class='navMenuItem'>Location</li>
-                    <li class='navMenuItem'>Contact</li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
 
 
-        <header>
-            <div class='aboutuscontainer'>
-                <img class='aboutusimg' src='https://images.unsplash.com/44/E5KMvPp9SsCnqmEGUwAS_2014-08-10%2012.56.40%201.jpg?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=959&q=80'>
-                <div class='aboutuscenter'>ABOUT US</div>
-            </div>
+        <div class='aboutuscontainer'>
+            <img class='aboutusimg' src='https://images.unsplash.com/44/E5KMvPp9SsCnqmEGUwAS_2014-08-10%2012.56.40%201.jpg?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=959&q=80'>
+            <div class='aboutuscenter'>ABOUT US</div>
+        </div>
         <hr class="rounded">
         <nav></nav>
-        </header>
+  
         <article>
-            
-        <header>
-        <h3>Our Story:</h3>
-        </header>
-        <p>Since opening in 2019, Cafe Smile has been offering delicious coffee, various kind of beverages, pastries, ad brunches that make people feel warm and happy. We also provide a warm and safe place where everyone can enjoy their time with friends and put a smile on their face when they leave. Starting from this year, we created a membership system that customers can sign-up for which they can receive reward points and a free special drink on their birthday to show customers our appreciation. </p>
-        
+            <h3>Our Story:</h3>
+            <p>Since opening in 2019, Cafe Smile has been offering delicious coffee, various kind of beverages, pastries, ad brunches that make people feel warm and happy. We also provide a warm and safe place where everyone can enjoy their time with friends and put a smile on their face when they leave. Starting from this year, we created a membership system that customers can sign-up for which they can receive reward points and a free special drink on their birthday to show customers our appreciation. </p>
         </article>
+  
         <aside>
         <h3>Cafe Smile's mission:</h3>
         <h5 style="text-align:center;">"Everyone Who Come To Cafe Smile Leaves With Smile On Their Face"</h5>
@@ -116,6 +115,7 @@
         </div>
 
         <footer></footer>
-    
+        <script src="./js/main.js"></script>
+        <script src="./js/aboutus.js"></script>
     </body>
 </html>
