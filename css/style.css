@@ -29,6 +29,7 @@ h5 {
 header {
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 nav {
     background-color: #ffc913;
@@ -36,6 +37,9 @@ nav {
 a {
     color: #84521d;
     text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
 }
 a:visited {
     color: #361c00;
