@@ -1,30 +1,28 @@
 body {
     background-color: #fff3e6;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+  color: #361c00;
+}
+p, span {
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: #5a2e00;
+}
 h1 {
-    font-family: 'Oswald', sans-serif;
-    color: #361c00;
-    font-size: 36px;
+  font-size: 36px;
 }
 h2 {
-    font-family: 'Oswald', sans-serif;
-    color: #361c00;
-    font-size: 32px;
+  font-size: 32px;
 }
 h3 {
-    font-family: 'Oswald', sans-serif;
-    color: #361c00;
-    font-size: 26px;
+  font-size: 26px;
 }
 h4 {
-    font-family: 'Oswald', sans-serif;
-    color: #361c00;
-    font-size: 22px;
+  font-size: 22px;
 }
 h5 {
-    font-family: 'Oswald', sans-serif;
-    color: #361c00;
-    font-size: 18px;
+  font-size: 18px;
 }
 header {
     position: sticky;
@@ -85,24 +83,87 @@ ul {
     display: table;
     margin: 0 auto;
 }
-.aboutuscontainer {
+.bannerContainer {
     position: relative;
 }
-.aboutuscenter {
+.bannerText {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 18px;
     font-family: 'Oswald', sans-serif;
     color: #361c00;
     font-size: 36px;
+    font-weight: bold;
 }
-.aboutusimg {
+.bannerImage {
     width: 100%;
     height: 200px;
-    opacity: 0.3;
+    opacity: 0.5;
+
+  }
+/* menu */
+.pointer {
+  cursor: pointer;
 }
+.showMenu {
+  display: block;
+}
+
+.menuIconContainer {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.menuIcon{
+  display: flex;
+  justify-content: center;
+  flex: 1 0 50%;
+  margin: 50px 0;
+}
+.filterBlack {
+  filter: brightness(0);
+}
+.menuContainer {
+  display: none;
+  width: 50%;
+  margin: auto;
+  border: solid #361c00 5px;
+  border-radius: 20px;
+  position: relative;
+}
+.menu {
+  display: none;
+  width: 90%;
+  margin: auto;
+}
+.menuTitle {
+  text-align: center;
+  text-transform: uppercase;
+}
+.menuTitle h2 {
+  font-weight: bold;
+}
+.menuItem {
+  display: flex;
+  justify-content: space-between;
+}
+.menuItem p {
+  font-size: 25px;
+  font-weight: bold;
+}
+#x {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#x img {
+  width: 30px;
+}
+
+/* gallery slide */
+
 * {box-sizing:border-box}
 .gallery-container {
   max-width: 1000px;
