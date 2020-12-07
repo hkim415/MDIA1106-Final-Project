@@ -83,6 +83,9 @@ ul {
     display: table;
     margin: 0 auto;
 }
+
+/* banner */
+
 .bannerContainer {
     position: relative;
 }
@@ -98,11 +101,13 @@ ul {
 }
 .bannerImage {
     width: 100%;
-    height: 200px;
+    height: 150px;
     opacity: 0.5;
 
   }
+
 /* menu */
+
 .pointer {
   cursor: pointer;
 }
@@ -160,6 +165,20 @@ ul {
 }
 #x img {
   width: 30px;
+}
+
+/* location */
+
+.mainContainer{
+  width: 85%;
+  margin: auto;
+}
+.storeContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.hours span {
+  font-weight: bold;
 }
 
 /* gallery slide */
