@@ -77,7 +77,7 @@ hr.rounded{
 .firstWord {
     font-size: normal;
     font-style: initial;
-    color: #ffc913;
+    color: #B68C00;
   }
 ul {
     display: table;
@@ -238,4 +238,87 @@ ul {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+.homecontainer {
+  position: relative;
+}
+.homecenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  color: #361c00;
+  font-size: 36px;
+}
+.homeimg {
+  width: 100%;
+  height: 200px;
+  opacity: 0.3;
+}
+.homehours {
+  padding-left: 30px;
+}
+.lefttestimonialcontainer {
+  border: 2px solid #b17e48;
+  background-color: #ffe798;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+.lefttestimonialcontainer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.lefttestimonialcontainer img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.lefttestimonialcontainer span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+@media (max-width: 500px) {
+  .lefttestimonialcontainer {
+    text-align: center;
+  }
+  .lefttestimonialcontainer img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+.righttestimonialcontainer {
+  border: 2px solid #b17e48;
+  background-color: #ffe798;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+.righttestimonialcontainer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.righttestimonialcontainer img {
+  float: right;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+.righttestimonialcontainer span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+@media (max-width: 500px) {
+  .righttestimonialcontainer {
+    text-align: center;
+  }
+  .righttestimonialcontainer img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
 }
