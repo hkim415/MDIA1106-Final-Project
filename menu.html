@@ -25,10 +25,80 @@
                 </div>
             </nav>
         </header>
+
+        <div class='bannerContainer'>
+            <img class='bannerImage' src='./images/bannerMenu.jpg'>
+            <div class='bannerText'>MENU</div>
+        </div>
+        <hr class="rounded">
         <main>
-            <h1>menu</h1>
+            <div class='menuIconContainer'>
+                <div class='menuIcon filterBlack pointer' id='coffee' onmouseover='active(this);' onmouseout='disable(this);' onclick='showMenu(this);'>
+                    <img src="./images/coffee.png" alt="coffee icon">
+                </div>
+                <div class='menuIcon filterBlack pointer' id='drink' onmouseover='active(this);' onmouseout='disable(this);' onclick='showMenu(this);'>
+                    <img src="./images/drink.png" alt="drink icon">
+                </div>
+                <div class='menuIcon filterBlack pointer' id='pastry' onmouseover='active(this);' onmouseout='disable(this);' onclick='showMenu(this);'>
+                    <img src="./images/pastry.png" alt="pastry icon">
+                </div>
+                <div class='menuIcon filterBlack pointer' id='brunch' onmouseover='active(this);' onmouseout='disable(this);' onclick='showMenu(this);'>
+                    <img src="./images/brunch.png" alt="brunch icon">
+                </div>
+            </div>
+
+            <div class='menuContainer'>
+                <div class='menu' id='coffeeMenu'>
+                    <div class='menuItemContainer'>
+                        <div class='menuTitle'>
+                            <h2>coffee</h2>
+                        </div>
+                        <div class='menuItem'>
+                            <p>Americano</p>
+                            <p>$2.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class='menu' id='drinkMenu'>
+                    <div class='menuItemContainer'>
+                        <div class='menuTitle'>
+                            <h2>baverage</h2>
+                        </div>
+                        <div class='menuItem'>
+                            <p>Matcha Latte</p>
+                            <p>$2.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class='menu' id='pastryMenu'>
+                    <div class='menuItemContainer'>
+                        <div class='menuTitle'>
+                            <h2>pastry</h2>
+                        </div>
+                        <div class='menuItem'>
+                            <p>Croissant</p>
+                            <p>$5.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class='menu' id='brunchMenu'>
+                    <div class='menuItemContainer'>
+                        <div class='menuTitle'>
+                            <h2>brunch</h2>
+                        </div>
+                        <div class='menuItem'>
+                            <p>Cranberry & Turkey Sandwich</p>
+                            <p>$8.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class='pointer' id='x' onclick='hideMenu();'>
+                    <img src="./images/xMark.png" alt="x mark">
+                </div>
+            </div>
         </main>
         <footer></footer>
-        <script src="./js/main.js"></script>
+        <script src='./js/main.js'></script>
+        <script src='./js/menu.js'></script>
     </body>
 </html>
