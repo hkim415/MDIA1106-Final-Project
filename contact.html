@@ -25,8 +25,43 @@
                 </div>
             </nav>
         </header>
-        <main>
-            <h1>contact</h1>
+        <div class='bannerContainer'>
+            <img class='bannerImage' src='./images/bannerContact.jpg'>
+            <div class='bannerText'>CONTACT US</div>
+        </div>
+        <hr class="rounded">
+        <main class='contactMain'>
+            <div class='contactIntro'>
+                <p>Need assistance with a problem or question?</p>
+                <p>Please fill out the contact form.</p>
+                <p>We will get back to you within 48 hours!</p>
+            </div>
+            <div class="formContainer">
+                <form>
+                    <div class='inputContainer'>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your first name">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name">
+                    
+                        <label for="location">Location</label>
+                        <select id="selectLocation" name="location">
+                            <option value="" disabled selected>Choose a location</option>
+                            <option value="all">All locations</option>
+                            <option value="metrotown">Metrotown</option>
+                            <option value="downtown">Downtown</option>
+                        </select>
+                    </div>
+                    <div class='textContainer'>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                    
+                        <input type="submit" value="Submit">
+                    </div>
+                
+                </form>
+              </div>
         </main>
         <footer></footer>
         <script src="./js/main.js"></script>

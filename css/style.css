@@ -364,3 +364,80 @@ ul {
     display: block;
   }
 }
+
+/* contact */
+.contactMain {
+  width: 90%;
+  margin: auto;
+}
+
+.contactMain p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contactIntro {
+  text-align: center;
+}
+input[type=text], select{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #5a2e00;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: #361c00;
+}
+
+input[type=submit] {
+  background-color: #b68c00;
+  color: #361c00;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Kranky', cursive;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.formContainer {
+  border-radius: 5px;
+  background-color: #ffe798;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.formContainer label {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: bold;
+  color: #361c00;
+}
+.formContainer form{
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.textContainer {
+  width: 75%;
+}
+
+
+.formContainer .textContainer textarea{
+  resize: none;
+  height: 70%;
+  width: 100%;
+  border: 1px solid #5a2e00;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  color: #361c00;
+}
