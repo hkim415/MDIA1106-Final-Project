@@ -276,9 +276,15 @@ ul {
   height: 200px;
   opacity: 0.3;
 }
-.homehours {
-  padding-left: 30px;
+.hoursDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+.homehours p {
+  text-align: center;
+}
+
 .lefttestimonialcontainer {
   border: 2px solid #b17e48;
   background-color: #ffe798;
