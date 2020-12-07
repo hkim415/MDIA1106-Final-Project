@@ -127,6 +127,9 @@ ul {
   flex: 1 0 50%;
   margin: 50px 0;
 }
+.menuIcon img{
+  height: 70%;
+}
 .filterBlack {
   filter: brightness(0);
 }
@@ -150,6 +153,13 @@ ul {
 .menuTitle h2 {
   font-weight: bold;
 }
+.menuTitle .bev {
+  margin-bottom: 0;
+}
+.menuTitle p {
+  font-size: 15px;
+  margin-top: 0;
+}
 .menuItem {
   display: flex;
   justify-content: space-between;
@@ -157,6 +167,13 @@ ul {
 .menuItem p {
   font-size: 25px;
   font-weight: bold;
+  margin-top: 0;
+}
+.menuItem .subMenu .subName{
+  margin: 0;
+}
+.menuItem .subMenu .subItem {
+  font-size: 15px;
 }
 #x {
   position: absolute;
